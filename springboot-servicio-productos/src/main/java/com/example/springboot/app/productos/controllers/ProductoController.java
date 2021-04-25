@@ -44,11 +44,11 @@ public class ProductoController {
 //		if (ok == false) {
 //			throw new Exception("No se pudo cargar el producto");
 //		}
-//		try {
-//			Thread.sleep(2000L);
-//		} catch (InterruptedException e) {
-//			e.printStackTrace();
-//		}
+		try {
+			Thread.sleep(2000L);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 		return producto;
 	}
 }
