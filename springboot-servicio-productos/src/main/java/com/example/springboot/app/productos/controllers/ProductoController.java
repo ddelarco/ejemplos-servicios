@@ -40,15 +40,15 @@ public class ProductoController {
 //		producto.setPort(Integer.parseInt(env.getProperty("local.server.port")));
 		producto.setPort(port);
 		
-		boolean ok = false;
+//		boolean ok = false;
 //		if (ok == false) {
 //			throw new Exception("No se pudo cargar el producto");
 //		}
-		try {
-			Thread.sleep(2000L);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
+//		try {
+//			Thread.sleep(2000L);
+//		} catch (InterruptedException e) {
+//			e.printStackTrace();
+//		}
 		return producto;
 	}
 }
