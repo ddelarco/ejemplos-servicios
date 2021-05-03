@@ -2,10 +2,13 @@ package com.example.springboot.app.productos;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @EnableEurekaClient
 @SpringBootApplication
+//Buscaremos el paquete externo ya que no se tiene acceso
+@EntityScan({"com.example.springboot.app.commons.models.entity"})
 public class SpringbootServicioProductosApplication {
 
 	public static void main(String[] args) {
