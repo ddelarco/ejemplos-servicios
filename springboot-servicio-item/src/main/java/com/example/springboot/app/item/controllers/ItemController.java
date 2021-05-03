@@ -38,8 +38,8 @@ public class ItemController {
 
 	//@Qualifier especifica cual se quiere seleccionar por defecto
 	@Autowired
-//	@Qualifier("serviceFeign")
-	@Qualifier("serviceRestTemplate")
+	@Qualifier("serviceFeign")
+//	@Qualifier("serviceRestTemplate")
 	private ItemService itemService;
 	
 	@Value("${configuracion.texto}")
