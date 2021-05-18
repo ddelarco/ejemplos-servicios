@@ -1,6 +1,5 @@
 package com.example.springboot.app.oauth.security;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 import org.springframework.beans.factory.annotation.Autowired;
