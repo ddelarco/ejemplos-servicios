@@ -8,10 +8,10 @@
 		<version>2.1.6.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example.springboot.app.zull</groupId>
-	<artifactId>springboot-servicio-zull-server</artifactId>
+	<groupId>com.example.springboot.app.zuul</groupId>
+	<artifactId>springboot-servicio-zuul-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springboot-servicio-zull-server</name>
+	<name>springboot-servicio-zuul-server</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
